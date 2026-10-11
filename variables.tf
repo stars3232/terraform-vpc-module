@@ -21,3 +21,8 @@ variable "private_subnet_cidr_blocks" {
 variable "database_subnet_cidr_blocks" {
     type = list(string)
 }
+
+variable "is_peering_required" {
+    
+    default = false
+}
